@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+nav {
+    font-family: 'Sarabun', sans-serif;
+    background-color: #71A9F7;
+    color: white;
+    font-style: bold;
+}
+
+#section-title {
+    font-size: 30pt;
+    font-weight: bold;
+}
+
+#description {
+    font-size: 14pt;
+}
+
+#lets-talk {
+    background-color: #71A9F7;
+    border: none;
+}
+
+#introduction {
+    min-height: 100vh;
+    align: center;
+    background-color: #E7F0FF;
+    color: #143c74 ;
+    /* font-size: 16pt; */
+}
+
+#project-title {
+    background-color: #CBD4C2;
+    color: #49593a;
+}
+
+#project-cards {
+    font-size: 20px;
+}
+
+#ezra-img {
+    height: 350px;
+    width: auto;
+}
+
+#about-me {
+    background-color: #C3B299;
+    color: #423c32;
+}
