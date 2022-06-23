@@ -16,31 +16,32 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Sarabun:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Prompt&family=Sarabun:wght@300&display=swap" rel="stylesheet">
+  
     
 
 </head>
 <body>
     <!-- Start Navbar -->
-    <nav id="nav-bar"class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <a class="navbar-brand pl-3" href="#introduction">Ezra</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <nav id="nav-bar"class="navbar navbar-expand-lg navbar-dark fixed-top col-12">
+        <a class="navbar-brand pl-3" href="#introduction" id="ezra-nav">Ezra</a>
+        <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto" id="other-nav">
             <li class="nav-item active">
-            <a class="nav-link pl-5" href="#introduction">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link pl-5" href="#introduction" id="other-nav">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-            <a class="nav-link pl-5" href="#project-title">Projects</a>
+            <a class="nav-link pl-5" href="#project-title" id="other-nav">Projects</a>
             </li>
             <li class="nav-item active">
-            <a class="nav-link pl-5" href="#about-me">About Me</a>
+            <a class="nav-link pl-5" href="#about-me" id="other-nav">About Me</a>
             </li>
             <li class="nav-item active">
-            <a class="nav-link pl-5" href="#contact">Contact</a>
+            <a class="nav-link pl-5" href="#contact" id="other-nav">Contact</a>
             </li>
         </ul>
         </div>
@@ -56,20 +57,21 @@
 
         <div class="row align-items-center pt-5">
 
-            <div class="col-sm-12 col-md-8 col-lg-6 p-5">
+            <div class="col-sm-12 col-md-7 col-lg-6">
 
-                <h2 id="section-title" class="mb-3">Front-End Developer</h2>
+                <h2 id="section-title" class="mt-5 mb-5">Front-End Developer</h2>
 
-                <p id="description" class="text-justify">Ezra Nacianceno is a Front-End Developer with a diverse set of skills inlcuding HTML, CSS, and JavaScript. I create beautiful and functional websites to help boost your business. </p>
+                <p id="description" class="text-justify p-3"> Hi! I'm Ezra, a Front-End Developer with a diverse set of skills inlcuding HTML, CSS, and JavaScript. I create beautiful and functional websites to help boost your business.</p>
 
                 
 
 
-                <button type="button" id="lets-talk" class="rounded-pill text-white p-3 w-50">Let's talk</button>
+                <button type="button" id="lets-talk" class="rounded-pill text-white p-3 w-50"> <a href="#contact" id="talk-link">Let's talk</a>
+                    </button>
             </div>
 
-            <div class="col-sm-12 col-md-4 col-lg-6">
-                <img src="./images/programmer-clipart.png" id="programmer-img" class="w-100 align-middle">
+            <div class="col-sm-12 col-md-5 col-lg-6">
+                <img src="./images/programmer-clipart.png" id="programmer-img" class="w-100 align-middle -5">
             </div>
         </div>  
 
@@ -79,16 +81,21 @@
     <!-- Start of Projects -->
 
 
-    <div id="project-title" class="container-fluid text-center min-vh-100 text-dark p-5">
+    <div id="project-title" class="container-fluid text-center min-vh-100 text-dark">
 
-        <div class="row justify-content-center p-5">
-            <h2 id="section-title" class="pt-5">Projects</h2>
+        <div class="row justify-content-center">
+            <h2 id="section-title" class="pt-5 pb-5">Projects</h2>
 
-            <p id="description" class="">Ezra Nacianceno has created websites for small businesses, agricultural businesses, hotel and tourism businesses and e-commerce platforms.</p>
+
+           
 
         </div>
 
-        <div id="project-cards"class="row text-dark justify-content-center">
+        <div>
+            <p id="description" class="p-3 text-justify ">Ezra has created websites for small businesses, agricultural businesses, hotel and tourism businesses and e-commerce platforms. With his experience, he is able to create responsive webistites that cater to each client's specific needs. </p>
+        </div>
+
+        <div id="project-cards"class="row text-dark justify-content-center pb-5">
             
                 <!-- Card 1 -->
                 
@@ -130,22 +137,22 @@
 
      <!-- Start About Me -->
 
-    <div id="about-me" class="container-fluid text-center align-items-center p-5 min-vh-100">
+    <div id="about-me" class="container-fluid text-center align-items-center min-vh-100">
 
         <h2 id="section-title">About Me</h2>
 
-        <div class="row align-items-center pt-5">
+        <div class="row align-items-center">
 
-            <div class="col-sm-12 col-md-8 col-lg-5 p-5">
+            <div class="col-sm-12 col-md-5 align-items-center">
 
-            <img src="./images/Edited-4979.jpg" id="ezra-img">
+            <img src="./images/Screen Shot 2022-06-23 at 8.52.41 AM.png" id="ezra-img" class="w-75 h-75 p-3">
 
             </div>
 
-            <div class="col-sm-12 col-md-4 col-lg-7">
-                <p id="description" class="text-justify w-75">Ezra Nacianceno is a Front-End Developer with a diverse set of skills inlcuding HTML, CSS, and JavaScript. I create beautiful and functional websites to help boost your business.
+            <div class="col-sm-12 col-md-7">
+                <p id="description" class="text-justify w-100 p-3"> Hi! I'm Ezra, a Front-End Developer with a diverse set of skills inlcuding HTML, CSS, and JavaScript. I create beautiful and functional websites to help boost your business.
                 
-                With a background on environmental planning, he is particulary interested in working with clients from the agricultural, real estate, and engineering industries. 
+                With a background on environmental planning, I'm particulary interested in working with clients from the agricultural, real estate, and engineering industries. 
                 </p>
             </div>
         </div>  
@@ -154,58 +161,86 @@
 
      <!-- End of About Me -->
 
-     <div  class="container-fluid text-center">
+     <!-- Start of Contact Section -->
 
-        <h2 id="contact" class="p-5">Contact</h2>
+     <div id="contact"class="container-fluid text-center">
+
+        <h2 id="section-title" class="p-5">Contact</h2>
          <div class="row">
 
-            <div class="col-lg-6">
+            <div class="col-lg-5 col-md-6 col-sm-12 justify-content-center">
 
-                <form class="bg-dark w-100 p-5 text-white text-center">
-                    <div>
-                        <div class="col">
+                <form id="contact-form" class="p-3 text-white rounded col-sm-12">
+                    <div class="">
+                        <div class="">
                             <label for="inputEmail4">Name</label>
                             <input type="text" class="form-control" placeholder="Your Name">
                         </div>
-                        <div class="col">
-                            <label for="inputEmail4">Email</label>
+                        <div class="">
+                            <label for="inputEmail4" class="mt-2">Email</label>
                             <input type="email" class="form-control" id="inputEmail4" placeholder="name@example.com">
                         </div>
-                        <div class="col">
-                            <label for="contact-no">Contact Number</label>
+                        <div class="">
+                            <label for="contact-no" class="mt-2">Contact Number</label>
                             <input type="number" class="form-control w-100" id="contact-no" placeholder="+63 900 000 0000">
                         </div>
                         <div class="form-group">
-                            <label for="concern">Concern</label>
+                            <label for="concern" class="mt-2">Service Type</label>
                             <select class="form-control" id="concern" placeholder="Quotation">
-                            <option>Quotation 1</option>
-                            <option>Quotation 2</option>
-                            <option>Quotation 3</option>
-                            <option>Quotation 4</option>
-                            <option>Quotation 5</option>
+                            <option>UI/UX</option>
+                            <option>Front-end</option>
+                            <option>Back-end</option>
+                            <option>Full-stack</option>
                             </select>
                         </div>
                         <div class="form-group">
                             <label for="message">Message</label>
-                            <textarea class="form-control" id="message" rows="3"></textarea>
+                            <textarea class="form-control mb-2" id="message" rows="3"></textarea>
                         </div>
 
                         </div>
-                        <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">Send Email</button>
+                        <button type="button" id="inquiry-button"class="btn rounded-pill p-3" data-toggle="modal" data-target="#exampleModal">Send Inquiry</button>
                     </form>
 
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-7 p-5 col-sm-12 col-md-6">
 
-                <a href=""
+                <img src="./images/contact-us-img.webp" class="mb-5 w-75">
+
+                <div id="footer" class="text-center">
+                    <a href="https://www.linkedin.com/in/ezranacianceno/"><img src="./images/linkedin-logo-white-1024x1024.png" class="contact-img"></a>
+                    <a href="https://www.instagram.com/ezra.sn/"><img src="./images/instagram.png" class="contact-img"></a>
+                    </div>
 
             </div>
          </div>
 
      </div>
 
+    <!-- End of Contact Section -->
 
+    <!-- Star Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Thank you for sending us a message!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                    Message Successfully Sent.
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+    <!-- End of Modal -->
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
