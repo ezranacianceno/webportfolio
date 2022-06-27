@@ -5,6 +5,15 @@
     font-family: 'Red Hat Display', sans-serif;
 }
 
+/* @media only screen and (min-width: 992px) {
+
+    #introduction
+    #project-title
+    #about-me 
+    #contact { padding: 50px;};
+        
+    } */
+
 nav {
     font-family: 'Prompt', sans-serif;
     background-color: #71A9F7;
@@ -88,4 +97,11 @@ nav {
     height: 50px;
     width: 50px;
     margin: 10px;
+}
+
+.footer {
+    background-color: white;
+    opacity: 75%;
+    color: black;
+    text-align: center;
 }
