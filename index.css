@@ -35,10 +35,16 @@ nav {
     font-weight: bold;
     font-family: 'Prompt', sans-serif;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 #description {
     font-size: 14pt;
+}
+
+.project-link {
+    text-decoration: underline;
+    color: black;
 }
 
 #lets-talk {
@@ -81,6 +87,11 @@ nav {
 #contact {
     background-color: #E7F0FF;
     color: #0b307a;
+}
+
+#contact-text {
+    text-align: center;
+    display: block;
 }
 
 #contact-form {
