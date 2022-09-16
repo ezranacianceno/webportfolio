@@ -22,6 +22,7 @@ nav {
 
 }
 
+
 #ezra-nav{
     font-family: 'Prompt', sans-serif;
     font-size: 20pt;
@@ -42,6 +43,10 @@ nav {
     font-size: 14pt;
 }
 
+#description-container {
+    align-items: center;
+}
+
 .project-link {
     text-decoration: underline;
     color: black;
@@ -50,6 +55,8 @@ nav {
 #lets-talk {
     background-color: #71A9F7;
     border: none;
+    width: 200px;
+    padding: 15px;
 }
 
 #talk-link {
