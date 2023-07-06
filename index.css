@@ -65,7 +65,7 @@ nav {
 
 #introduction {
     min-height: 100vh;
-    align: center;
+    align-items: center;
     background-color: #E7F0FF;
     color: #143c74 ;
     /* font-size: 16pt; */
