@@ -48,7 +48,7 @@ nav {
 }
 
 .project-link {
-    text-decoration: underline;
+    text-decoration: none;
     color: black;
 }
 
@@ -122,4 +122,8 @@ nav {
     opacity: 75%;
     color: black;
     text-align: center;
+}
+
+a:hover, a:visited { 
+    color: #71A9F7 !important; 
 }
